@@ -1,0 +1,151 @@
+/* Style global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+#photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+#email {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#email:hover {
+  text-decoration: underline;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Section */
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.gris_italique {
+  color: #777;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-top: 2px solid #e0e0e0;
+}
+
+footer h2 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Liens */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  #photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  section {
+    margin-top: 30px;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
